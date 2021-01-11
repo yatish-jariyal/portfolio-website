@@ -13,7 +13,7 @@ const Skills = () => {
   return (
     <>
       <Fade big>
-        <div style={{ backgroundColor: "#01C0AD" }}>
+        <div>
           <h1
             style={{
               textAlign: "center",
