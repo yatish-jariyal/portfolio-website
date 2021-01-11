@@ -2,7 +2,7 @@ import React from "react";
 import weatherapp from "../assets/weatherapp.png";
 import chess from "../assets/chess.PNG";
 import googlekeep from "../assets/googlekeep.PNG";
-import ecomm from "../assets/ecomm.PNG";
+import ecomm from "../assets/ecomm.png";
 
 const data = [
   {

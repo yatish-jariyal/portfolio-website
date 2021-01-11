@@ -1,5 +1,6 @@
 import React from "react";
 import profileImg from "../assets/profile.jpg";
+import resume from "../assets/resume.pdf";
 import { Button, Row, Col } from "react-bootstrap";
 
 const About = () => {
@@ -27,7 +28,9 @@ const About = () => {
             football (Not the one played with hands!), watching movies,
             listening to music, mostly Pink Floyd and occasional camping.
           </p>
-          <Button>Resume</Button>
+          <a href={resume}>
+            <Button>Resume</Button>
+          </a>
         </Col>
       </Row>
     </div>

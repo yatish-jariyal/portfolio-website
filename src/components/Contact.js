@@ -48,26 +48,35 @@ const Contact = () => {
       </Row>
       <Row className="justify-content-center w-100">
         <div>
+          <a
+            style={{ textDecoration: "none", color: "inherit" }}
+            href="https://github.com/yatish-jariyal-au8/"
+          >
+            <i
+              onMouseEnter={handleHover}
+              onMouseLeave={handleHover}
+              className={
+                isHovered ? `ri-github-fill ri-3x` : `ri-github-line ri-3x`
+              }
+              style={{ cursor: "pointer" }}
+            ></i>
+          </a>
+        </div>
+        <a
+          style={{ textDecoration: "none", color: "inherit" }}
+          href="https://www.linkedin.com/in/yatish-jariyal"
+        >
           <i
             onMouseEnter={handleHover}
             onMouseLeave={handleHover}
             className={
-              isHovered ? `ri-github-fill ri-3x` : `ri-github-line ri-3x`
+              isHovered
+                ? `ri-linkedin-box-fill ri-3x mx-2`
+                : `ri-linkedin-box-line ri-3x mx-2`
             }
             style={{ cursor: "pointer" }}
           ></i>
-        </div>
-
-        <i
-          onMouseEnter={handleHover}
-          onMouseLeave={handleHover}
-          className={
-            isHovered
-              ? `ri-linkedin-box-fill ri-3x mx-2`
-              : `ri-linkedin-box-line ri-3x mx-2`
-          }
-          style={{ cursor: "pointer" }}
-        ></i>
+        </a>
       </Row>
     </div>
   );
