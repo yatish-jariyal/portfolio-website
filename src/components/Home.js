@@ -29,7 +29,7 @@ const Home = () => {
               bottom: "70px",
             }}
           >
-            I'm a <strong>Fullstack Developer.</strong> and I love what I do.
+            I'm a <strong>FullStack Developer.</strong> and I love to code
           </h5>
         </div>
       </div>

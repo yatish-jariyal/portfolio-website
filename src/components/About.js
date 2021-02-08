@@ -19,14 +19,13 @@ const About = () => {
         </Col>
         <Col md={6}>
           <p style={{ lineHeight: "35px" }} className="aboutMePara">
-            Hi, I'm Yatish and I'm a Fullstack developer, I usually work with
-            the MERN stack, but I also love to code in Python. I'm a Computer
+            Hi, I'm Yatish and I'm a Fullstack developer, I have worked with
+            the MERN stack, and built and deployed full fledged web applications, I also code in Python. I'm a Computer
             Engineering dropout, so I have learned most of the programming
-            languages myself. Apart from creating web applications, solving
-            interesting coding problems gives me a brain rush, never fails to
-            amaze. Coding stuff aside I spend my time playing or watching
-            football (Not the one played with hands!), watching movies,
-            listening to music, mostly Pink Floyd and occasional camping.
+            languages myself. I also like solving
+            interesting coding problems. Coding stuff aside, I spend my time playing or watching
+            football, watching movies,
+            listening to music.
           </p>
           <a href={resume}>
             <Button>Resume</Button>
