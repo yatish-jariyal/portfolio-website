@@ -1,6 +1,7 @@
 import React from "react";
 import { Image } from "react-bootstrap";
 import backgroundImg from "../assets/background.jpg";
+import "./CSS/Home.css";
 
 const Home = () => {
   return (
@@ -29,7 +30,7 @@ const Home = () => {
               bottom: "70px",
             }}
           >
-            I'm a <strong>FullStack Developer.</strong> and I love to code
+            I'm a <strong>FullStack Developer.</strong> and I like to code
           </h5>
         </div>
       </div>

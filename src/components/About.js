@@ -19,16 +19,18 @@ const About = () => {
         </Col>
         <Col md={6}>
           <p style={{ lineHeight: "35px" }} className="aboutMePara">
-            Hi, I'm Yatish and I'm a Fullstack developer, I have worked with
-            the MERN stack, and built and deployed full fledged web applications, I also code in Python. I'm a Computer
-            Engineering dropout, so I have learned most of the programming
-            languages myself. I also like solving
-            interesting coding problems. Coding stuff aside, I spend my time playing or watching
-            football, watching movies,
-            listening to music.
+            Hi, I'm Yatish and I'm a Fullstack developer, I have worked with the
+            MERN stack, and built and deployed full fledged web applications, I
+            also code in Python. I'm a Computer Engineering dropout, so I have
+            learned most of the programming languages myself. I also like
+            solving interesting coding problems. Coding stuff aside, I spend my
+            time playing or watching football, watching movies, listening to
+            music.
           </p>
           <a href={resume}>
-            <Button>Resume</Button>
+            <Button className="resumeButton" variant="primary" size="lg">
+              Resume
+            </Button>
           </a>
         </Col>
       </Row>
