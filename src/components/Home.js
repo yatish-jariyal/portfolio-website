@@ -1,7 +1,6 @@
 import React from "react";
 import { Image } from "react-bootstrap";
 import backgroundImg from "../assets/background.jpg";
-import "./CSS/Home.css";
 
 const Home = () => {
   return (

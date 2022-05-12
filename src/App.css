@@ -22,7 +22,7 @@
   background-size: cover;
 
   width: fit-content;
-  max-height: 100vh;
+  /* max-height: 100vh; */
   margin: auto;
 }
 
