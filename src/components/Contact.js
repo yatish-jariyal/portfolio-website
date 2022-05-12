@@ -50,7 +50,7 @@ const Contact = () => {
         <div>
           <a
             style={{ textDecoration: "none", color: "inherit" }}
-            href="https://github.com/yatish-jariyal-au8/"
+            href="https://github.com/yatish-jariyal/"
           >
             <i
               onMouseEnter={handleHover}
