@@ -13,15 +13,16 @@
   filter: blur(4px);
   -webkit-filter: blur(4px);
 
-  /* Full height */
-  /* height: 100%; */
+
 
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  /* Full height and full width */
   width: 100vw;
-  /* max-height: 100vh; */
+  height: 100vh;
+
   margin: auto;
 }
 
