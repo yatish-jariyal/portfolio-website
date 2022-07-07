@@ -1,6 +1,5 @@
 import React from "react";
 import profileImg from "../assets/profile.jpg";
-import resume from "../assets/resume.pdf";
 import { Button, Row, Col } from "react-bootstrap";
 
 const About = () => {
@@ -27,7 +26,10 @@ const About = () => {
             time playing or watching football, watching movies, listening to
             music.
           </p>
-          <a href={resume}>
+          <a
+            href="https://drive.google.com/file/d/1hQE5_HwuV_dLSk8c7D_TafHlpg1niZzw/view?usp=sharing"
+            target="_blank"
+          >
             <Button className="resumeButton" variant="primary" size="lg">
               Resume
             </Button>
