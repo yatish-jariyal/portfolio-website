@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.9c668d15.chunk.css",
+    "main.css": "/portfolio-website/static/css/main.8286fcaf.chunk.css",
     "main.js": "/portfolio-website/static/js/main.7ee8751f.chunk.js",
     "main.js.map": "/portfolio-website/static/js/main.7ee8751f.chunk.js.map",
     "runtime-main.js": "/portfolio-website/static/js/runtime-main.b29b1c6f.js",
@@ -12,7 +12,7 @@
     "static/js/3.188a9815.chunk.js.map": "/portfolio-website/static/js/3.188a9815.chunk.js.map",
     "index.html": "/portfolio-website/index.html",
     "static/css/2.1a02f21c.chunk.css.map": "/portfolio-website/static/css/2.1a02f21c.chunk.css.map",
-    "static/css/main.9c668d15.chunk.css.map": "/portfolio-website/static/css/main.9c668d15.chunk.css.map",
+    "static/css/main.8286fcaf.chunk.css.map": "/portfolio-website/static/css/main.8286fcaf.chunk.css.map",
     "static/js/2.a7f02a7b.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.a7f02a7b.chunk.js.LICENSE.txt",
     "static/media/background.0b366d97.jpg": "/portfolio-website/static/media/background.0b366d97.jpg",
     "static/media/chess.10b3a259.PNG": "/portfolio-website/static/media/chess.10b3a259.PNG",
@@ -35,7 +35,7 @@
     "static/js/runtime-main.b29b1c6f.js",
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.a7f02a7b.chunk.js",
-    "static/css/main.9c668d15.chunk.css",
+    "static/css/main.8286fcaf.chunk.css",
     "static/js/main.7ee8751f.chunk.js"
   ]
 }
