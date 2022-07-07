@@ -2,7 +2,7 @@ import React from "react";
 import weatherapp from "../assets/weatherapp.png";
 import chess from "../assets/chess.PNG";
 import googlekeep from "../assets/googlekeep.PNG";
-import jobapp  from "../assets/jobapp.png";
+import jobapp from "../assets/jobapp.png";
 import ecomm from "../assets/ecomm.PNG";
 import picsome from "../assets/picsome.PNG";
 
@@ -11,16 +11,15 @@ const data = [
     id: 1,
     title: "Job Application Tracker",
     desc: "A MERN stack application to store interview details at one place.",
-    link: "https://github.com/yatish-jariyal-au8/JobApplicationTracker",
+    link: "https://github.com/yatish-jariyal/JobApplicationTracker",
     image: jobapp,
     demo: "https://job-app-tracker-frontend.herokuapp.com/",
   },
   {
     id: 2,
     title: "Online Chess",
-    desc:
-      "A MERN stack application, which can be played online between 2 people.",
-    link: "https://github.com/yatish-jariyal-au8/Online-Chess",
+    desc: "A MERN stack application, which can be played online between 2 people.",
+    link: "https://github.com/yatish-jariyal/Online-Chess",
     image: chess,
     demo: "https://onlinechess-app.herokuapp.com/",
   },
@@ -28,7 +27,7 @@ const data = [
     id: 3,
     title: "E-commerce Website",
     desc: "A full fledged MERN stack app, with admin panel and payment option.",
-    link: "https://github.com/yatish-jariyal-au8/Ecommerce-Website",
+    link: "https://github.com/yatish-jariyal/Ecommerce-Website",
     image: ecomm,
     demo: "https://digitalcube.herokuapp.com/",
   },
@@ -36,14 +35,14 @@ const data = [
     id: 4,
     title: "Google Keep",
     desc: "Google Keep clone using ReactJs",
-    link: "https://github.com/yatish-jariyal-au8/GoogleKeepClone",
+    link: "https://github.com/yatish-jariyal/GoogleKeepClone",
     image: googlekeep,
   },
   {
     id: 5,
     title: "Weather App",
     desc: "ReactJs application to check the weather of any city",
-    link: "https://github.com/attainu/yatish-jariyal-au8/tree/dev/monthly-tests/November-Test/WeatherApp/weather-app",
+    link: "https://github.com/attainu/yatish-jariyal/tree/dev/monthly-tests/November-Test/WeatherApp/weather-app",
     image: weatherapp,
     demo: "https://agile-forest-53257.herokuapp.com/",
   },
@@ -51,7 +50,7 @@ const data = [
     id: 6,
     title: "PicSome",
     desc: "A small e-commerce app built using ReactJs",
-    link: "https://github.com/yatish-jariyal-au8/PicSome",
+    link: "https://github.com/yatish-jariyal/PicSome",
     image: picsome,
   },
 ];
@@ -89,7 +88,7 @@ const Projects = () => {
                 </div>
               </div>
               <div className="card-heading w-100">
-                <h3 style={{ fontWeight: 700, marginRight: '15px'}}>
+                <h3 style={{ fontWeight: 700, marginRight: "15px" }}>
                   {project.title}
                 </h3>
               </div>
