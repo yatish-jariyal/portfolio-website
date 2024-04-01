@@ -1,0 +1,116 @@
+.container {
+  font-size: 20px;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+}
+
+.gradient {
+  width: 50vw;
+  height: 50vw;
+  background: radial-gradient(
+    circle at center,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(140, 200, 255, 0.1) 5%,
+    rgba(140, 200, 255, 0)
+  );
+}
+
+.skill {
+  position: absolute;
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+}
+
+.one {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  animation: appear 2s ease-in forwards;
+}
+
+.two {
+  top: 18%;
+  left: 10%;
+  animation: appear 1s ease-in forwards;
+}
+
+.three {
+  top: 20%;
+  right: 15%;
+  animation: appear 0.5s ease-in forwards;
+}
+
+.four {
+  top: 75%;
+  left: 20%;
+  animation: appear 1.5s ease-in forwards;
+}
+
+.five {
+  top: 78%;
+  right: 8%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  animation: appear 2s ease-in forwards;
+}
+
+.six {
+  top: 36%;
+  left: 28%;
+  color: #ffffff;
+  animation: appear 1s ease-in forwards;
+}
+
+.seven {
+  top: 40%;
+  right: 12%;
+  color: #ffffff;
+  animation: appear 0.8s ease-in forwards;
+}
+
+.eight {
+  top: 62%;
+  right: 24%;
+  color: #ffffff;
+  animation: appear 1s ease-in forwards;
+}
+
+.nine {
+  top: 57%;
+  left: 12%;
+  color: #ffffff;
+  animation: appear 2s ease-in forwards;
+}
+
+.ten {
+  top: 12%;
+  left: 42%;
+  color: #ffffff;
+  animation: appear 1.5s ease-in forwards;
+}
+
+.eleven {
+  top: 84%;
+  left: 49%;
+  color: #ffffff;
+  animation: appear 0.8s ease-in forwards;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

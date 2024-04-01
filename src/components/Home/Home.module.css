@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  animation: slideUp 1s ease-out forwards;
+}
+
+.mainText {
+  font-size: 95px;
+  color: white;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.secondaryText {
+  font-size: 40px;
+  color: white;
+}
+
+.span {
+  color: #8cc8ff;
+}

@@ -1,0 +1,100 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  font-size: 20px;
+}
+
+.email {
+  display: flex;
+  width: 350px;
+  border: 1px solid #0085ff;
+  padding: 24px 48px;
+  justify-content: space-between;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  animation: slideDown 1s ease-in forwards;
+}
+
+.emailAddress {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-self: center;
+}
+
+.emailAddress:hover {
+  color: #0085ff;
+}
+
+.phone {
+  display: flex;
+  width: 350px;
+  border: 1px solid #0085ff;
+  padding: 12px 48px;
+  justify-content: space-between;
+  animation: appear 1s ease-in forwards;
+}
+
+.social {
+  display: flex;
+  width: 350px;
+  border: 1px solid #0085ff;
+  padding: 24px 48px;
+  justify-content: center;
+  gap: 48px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  animation: slideUp 1s ease-in forwards;
+}
+
+.github {
+  color: white;
+}
+
+.linkedIn {
+  color: white;
+}
+
+.github:hover {
+  color: #0085ff;
+}
+
+.linkedIn:hover {
+  color: #0085ff;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
